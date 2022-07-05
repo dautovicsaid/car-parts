@@ -17,7 +17,6 @@ class CreateProductsTable extends Migration
             $table->id();
             $table->string('name');
             $table->double('price', 8, 2);
-            $table->string('picture')->nullable();
             $table->integer('min_applicable_year');
             $table->integer('max_applicable_year');
             $table->unsignedBigInteger('model_id');
